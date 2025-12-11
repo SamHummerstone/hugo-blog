@@ -1,7 +1,21 @@
 baseURL = 'http://blog.samhummerstone.co.uk/'
 languageCode = 'en-gb'
-title = 'Samuel Hummerstone'
-theme = 'ananke'
+title = 'Sam H'
+theme = 'triple-hyde'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+[params.social]
+  LinkedIn = 'samuel-hummerstone/'
+[[menu.main]]
+    name = "Posts"
+    identifier = "posts"
+    weight = 100
+    url = "/posts/"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 100
+    url = "/about/"
+[params]
+    mainSections = ["posts"]
