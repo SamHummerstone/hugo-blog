@@ -1,0 +1,7 @@
+baseURL = 'http://blog.samhummerstone.co.uk/'
+languageCode = 'en-gb'
+title = 'Samuel Hummerstone'
+theme = 'ananke'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
